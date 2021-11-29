@@ -1,0 +1,37 @@
+{
+  "name": "apolloexample",
+  "version": "1.0.0",
+  "description": "Apollo Server + GraphQL + TypeScript Example",
+  "main": "dist/main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "dev": "NODE_ENV=development npm start",
+    "prod": "NODE_ENV=production npm start",
+    "start": "npx tsc && node dist/main --require dotenv/config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instafluff/ApolloExample.git"
+  },
+  "keywords": [
+    "instafluff",
+    "typescript",
+    "apollo",
+    "graphql"
+  ],
+  "author": "Instafluff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instafluff/ApolloExample/issues"
+  },
+  "homepage": "https://github.com/instafluff/ApolloExample#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.7.2"
+  }
+}
